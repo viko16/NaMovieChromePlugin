@@ -1,0 +1,37 @@
+﻿{
+  "name": "__MSG_plug_name__",
+  "version": "1.5.0.0",
+  "manifest_version": 2,
+  "description": "__MSG_plug_desp__",
+  "permissions": [
+    "http://172.16.31.1/*",
+	"http://na.sise.cn/*",
+    "tabs"
+  ],
+  "content_security_policy": "script-src 'self' https://connect.facebook.net https://apis.google.com; object-src 'self'",
+  "default_locale": "zh_CN", 
+  "content_scripts": [
+    {
+      "matches": ["http://172.16.31.1/*","http://na.sise.cn/*"],
+      "all_frames": true,
+      "js": ["injectaction.js"],
+      "run_at":"document_end"
+    }
+  ],
+  "icons": {
+    "32": "icon32.png"
+  },
+  "minimum_chrome_version": "18.0.0.0",
+  "page_action": {
+    "default_icon": "icon32.png"
+  },  
+  "plugins": [{
+    "path": "npactivex.dll",
+    "public": true
+  }],
+  "requirements": {
+    "plugins": {
+      "npapi": false
+    }
+  }
+}
