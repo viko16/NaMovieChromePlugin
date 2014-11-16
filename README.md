@@ -4,6 +4,18 @@ NaMovieChromePlugin
 NA在线影院 Chrome 播放插件（华软内网环境下）
 
 
+【停止更新】
+==============
+_此插件只作用于旧电影网，应旧电影网弃用而不再更新&维护。_
+
+推荐项目-> [NA新在线影院 HTML5 播放器](https://github.com/viko16/NavodHTML5)
+
+>- 为推广和普及华软 HTML5 而努力
+- 看着原来那只 Flash播放器 不爽啊，各种迟钝，各种卡拖动 _ (:3」∠)_
+- 顺便也改了官方的各种 bug 了2333....
+- 再也不用害怕 MacBook 发烫了
+
+
 安装
 ==============
 1. 猛击我 [下载](https://github.com/viko16/NaMovieChromePlugin/raw/master/chrome.crx)
@@ -30,4 +42,5 @@ NA在线影院 Chrome 播放插件（华软内网环境下）
 
 相关插件
 =============
-[一键下载 NA在线电影网 视频](https://github.com/viko16/DownloadNaVideo)
+- [一键下载 NA在线电影网 视频](https://github.com/viko16/DownloadNaVideo)（已停止更新）
+- [NA新在线影院 HTML5 播放器](https://github.com/viko16/NavodHTML5)（推荐）
